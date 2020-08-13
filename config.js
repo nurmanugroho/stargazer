@@ -113,6 +113,6 @@ $('.btn-popover').popover({
   trigger: 'focus',
   placement: 'bottom'
 })
-setTimeout(function(){
-document.getElementById("playAudio").play();
-},200);
+$("body, .btn").on("click",function(){document.getElementById("playAudio").play();});
+var audio = document.getElementById("playAudio");
+audio.volume = 0.4;
