@@ -111,4 +111,7 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 
-
+$('.btn-popover').popover({
+  trigger: 'focus',
+  placement: 'bottom'
+})
