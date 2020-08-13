@@ -115,5 +115,3 @@ $('.btn-popover').popover({
   trigger: 'focus',
   placement: 'bottom'
 })
-
-var myaudio = document.getElementById("playAudio").autoplay = true;
