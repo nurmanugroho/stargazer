@@ -113,3 +113,6 @@ $('.btn-popover').popover({
   trigger: 'focus',
   placement: 'bottom'
 })
+setTimeout(function(){
+document.getElementById("playAudio").play();
+},200);
