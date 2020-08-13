@@ -1,9 +1,7 @@
-/* ---- particles.js config ---- */
-
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 50,
+      "value": 110,
       "density": {
         "enable": true,
         "value_area": 800
@@ -48,7 +46,7 @@ particlesJS("particles-js", {
       }
     },
     "line_linked": {
-      "enable": true,
+      "enable": false,
       "distance": 105,
       "color": "#fff",
       "opacity": 0.4,
@@ -56,7 +54,7 @@ particlesJS("particles-js", {
     },
     "move": {
       "enable": true,
-      "speed": .2,
+      "speed": 0,
       "direction": "none",
       "random": false,
       "straight": false,
